@@ -6,24 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
-    <title>Responsive Dashboard Design #2 | AsmrProg</title>
+    <title>Patewen CRM | Dashboard</title>
 </head>
 
-<body>
+<body class="dark">
 
     <!-- Sidebar -->
     <div class="sidebar">
         <a href="#" class="logo">
             <i class='bx bx-code-alt'></i>
-            <div class="logo-name"><span>Asmr</span>Prog</div>
+            <div class="logo-name"><span>Patewen</span>Studio</div>
         </a>
         <ul class="side-menu">
-            <li><a href="#"><i class='bx bxs-dashboard'></i>Dashboard</a></li>
-            <li><a href="#"><i class='bx bx-store-alt'></i>Shop</a></li>
-            <li class="active"><a href="#"><i class='bx bx-analyse'></i>Analytics</a></li>
-            <li><a href="#"><i class='bx bx-message-square-dots'></i>Tickets</a></li>
-            <li><a href="#"><i class='bx bx-group'></i>Users</a></li>
-            <li><a href="#"><i class='bx bx-cog'></i>Settings</a></li>
+            <li><a href="#"><i class='bx bxs-dashboard'></i>Меню</a></li>
+            <li><a href="./orders"><i class='bx bxs-comment-error' style='color:#ffffff' ></i>Ордеры</a></li>
+            <li class="./analytics"><a href="#"><i class='bx bxs-bar-chart-square'></i>Аналитика</a></li>
+            <li><a href="./river"><i class='bx bxs-message-square-check'></i>Patewen.River</a></li>
+            <li><a href="#"><i class='bx bxs-cog'></i>Настройки</a></li>
         </ul>
         <ul class="side-menu">
             <li>
@@ -49,10 +48,6 @@
             </form>
             <input type="checkbox" id="theme-toggle" hidden>
             <label for="theme-toggle" class="theme-toggle"></label>
-            <a href="#" class="notif">
-                <i class='bx bx-bell'></i>
-                <span class="count">12</span>
-            </a>
             <a href="#" class="profile">
                 <img src="images/logo.png">
             </a>
@@ -63,19 +58,15 @@
         <main>
             <div class="header">
                 <div class="left">
-                    <h1>Dashboard</h1>
+                    <h1>Главное меню</h1>
                     <ul class="breadcrumb">
                         <li><a href="#">
-                                Analytics
+                                Главное
                             </a></li>
                         /
-                        <li><a href="#" class="active">Shop</a></li>
+                        <li><a href="#" class="active">Аналитика</a></li>
                     </ul>
                 </div>
-                <a href="#" class="report">
-                    <i class='bx bx-cloud-download'></i>
-                    <span>Download CSV</span>
-                </a>
             </div>
 
             <!-- Insights -->
